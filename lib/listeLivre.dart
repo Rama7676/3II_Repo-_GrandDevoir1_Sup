@@ -51,7 +51,7 @@ class _ListeLivrePageState extends State<ListeLivrePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.blueAccent,
+        backgroundColor: const Color.fromARGB(255, 65, 121, 218),
         centerTitle: true,
         title: Row(
           mainAxisSize: MainAxisSize.min,
